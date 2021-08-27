@@ -1,0 +1,13 @@
+C:\Users\Mutah\OneDrive\Desktop\C#\Collections Practice\bin\Debug\netcoreapp3.1\Collections Practice.exe
+C:\Users\Mutah\OneDrive\Desktop\C#\Collections Practice\bin\Debug\netcoreapp3.1\Collections Practice.deps.json
+C:\Users\Mutah\OneDrive\Desktop\C#\Collections Practice\bin\Debug\netcoreapp3.1\Collections Practice.runtimeconfig.json
+C:\Users\Mutah\OneDrive\Desktop\C#\Collections Practice\bin\Debug\netcoreapp3.1\Collections Practice.runtimeconfig.dev.json
+C:\Users\Mutah\OneDrive\Desktop\C#\Collections Practice\bin\Debug\netcoreapp3.1\Collections Practice.dll
+C:\Users\Mutah\OneDrive\Desktop\C#\Collections Practice\bin\Debug\netcoreapp3.1\Collections Practice.pdb
+C:\Users\Mutah\OneDrive\Desktop\C#\Collections Practice\obj\Debug\netcoreapp3.1\Collections Practice.csprojAssemblyReference.cache
+C:\Users\Mutah\OneDrive\Desktop\C#\Collections Practice\obj\Debug\netcoreapp3.1\Collections Practice.AssemblyInfoInputs.cache
+C:\Users\Mutah\OneDrive\Desktop\C#\Collections Practice\obj\Debug\netcoreapp3.1\Collections Practice.AssemblyInfo.cs
+C:\Users\Mutah\OneDrive\Desktop\C#\Collections Practice\obj\Debug\netcoreapp3.1\Collections Practice.csproj.CoreCompileInputs.cache
+C:\Users\Mutah\OneDrive\Desktop\C#\Collections Practice\obj\Debug\netcoreapp3.1\Collections Practice.dll
+C:\Users\Mutah\OneDrive\Desktop\C#\Collections Practice\obj\Debug\netcoreapp3.1\Collections Practice.pdb
+C:\Users\Mutah\OneDrive\Desktop\C#\Collections Practice\obj\Debug\netcoreapp3.1\Collections Practice.genruntimeconfig.cache
