@@ -1,0 +1,13 @@
+C:\Users\Mutah\OneDrive\Desktop\C#\BoxingUnboxing\bin\Debug\netcoreapp3.1\BoxingUnboxing.exe
+C:\Users\Mutah\OneDrive\Desktop\C#\BoxingUnboxing\bin\Debug\netcoreapp3.1\BoxingUnboxing.deps.json
+C:\Users\Mutah\OneDrive\Desktop\C#\BoxingUnboxing\bin\Debug\netcoreapp3.1\BoxingUnboxing.runtimeconfig.json
+C:\Users\Mutah\OneDrive\Desktop\C#\BoxingUnboxing\bin\Debug\netcoreapp3.1\BoxingUnboxing.runtimeconfig.dev.json
+C:\Users\Mutah\OneDrive\Desktop\C#\BoxingUnboxing\bin\Debug\netcoreapp3.1\BoxingUnboxing.dll
+C:\Users\Mutah\OneDrive\Desktop\C#\BoxingUnboxing\bin\Debug\netcoreapp3.1\BoxingUnboxing.pdb
+C:\Users\Mutah\OneDrive\Desktop\C#\BoxingUnboxing\obj\Debug\netcoreapp3.1\BoxingUnboxing.csprojAssemblyReference.cache
+C:\Users\Mutah\OneDrive\Desktop\C#\BoxingUnboxing\obj\Debug\netcoreapp3.1\BoxingUnboxing.AssemblyInfoInputs.cache
+C:\Users\Mutah\OneDrive\Desktop\C#\BoxingUnboxing\obj\Debug\netcoreapp3.1\BoxingUnboxing.AssemblyInfo.cs
+C:\Users\Mutah\OneDrive\Desktop\C#\BoxingUnboxing\obj\Debug\netcoreapp3.1\BoxingUnboxing.csproj.CoreCompileInputs.cache
+C:\Users\Mutah\OneDrive\Desktop\C#\BoxingUnboxing\obj\Debug\netcoreapp3.1\BoxingUnboxing.dll
+C:\Users\Mutah\OneDrive\Desktop\C#\BoxingUnboxing\obj\Debug\netcoreapp3.1\BoxingUnboxing.pdb
+C:\Users\Mutah\OneDrive\Desktop\C#\BoxingUnboxing\obj\Debug\netcoreapp3.1\BoxingUnboxing.genruntimeconfig.cache
