@@ -1,0 +1,13 @@
+C:\Users\Mutah\OneDrive\Desktop\C#\puzzles\bin\Debug\netcoreapp3.1\puzzles.exe
+C:\Users\Mutah\OneDrive\Desktop\C#\puzzles\bin\Debug\netcoreapp3.1\puzzles.deps.json
+C:\Users\Mutah\OneDrive\Desktop\C#\puzzles\bin\Debug\netcoreapp3.1\puzzles.runtimeconfig.json
+C:\Users\Mutah\OneDrive\Desktop\C#\puzzles\bin\Debug\netcoreapp3.1\puzzles.runtimeconfig.dev.json
+C:\Users\Mutah\OneDrive\Desktop\C#\puzzles\bin\Debug\netcoreapp3.1\puzzles.dll
+C:\Users\Mutah\OneDrive\Desktop\C#\puzzles\bin\Debug\netcoreapp3.1\puzzles.pdb
+C:\Users\Mutah\OneDrive\Desktop\C#\puzzles\obj\Debug\netcoreapp3.1\puzzles.csprojAssemblyReference.cache
+C:\Users\Mutah\OneDrive\Desktop\C#\puzzles\obj\Debug\netcoreapp3.1\puzzles.AssemblyInfoInputs.cache
+C:\Users\Mutah\OneDrive\Desktop\C#\puzzles\obj\Debug\netcoreapp3.1\puzzles.AssemblyInfo.cs
+C:\Users\Mutah\OneDrive\Desktop\C#\puzzles\obj\Debug\netcoreapp3.1\puzzles.csproj.CoreCompileInputs.cache
+C:\Users\Mutah\OneDrive\Desktop\C#\puzzles\obj\Debug\netcoreapp3.1\puzzles.dll
+C:\Users\Mutah\OneDrive\Desktop\C#\puzzles\obj\Debug\netcoreapp3.1\puzzles.pdb
+C:\Users\Mutah\OneDrive\Desktop\C#\puzzles\obj\Debug\netcoreapp3.1\puzzles.genruntimeconfig.cache

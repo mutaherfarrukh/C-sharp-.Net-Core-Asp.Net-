@@ -1,0 +1,13 @@
+C:\Users\Mutah\OneDrive\Desktop\C#\Human\bin\Debug\netcoreapp3.1\Human.exe
+C:\Users\Mutah\OneDrive\Desktop\C#\Human\bin\Debug\netcoreapp3.1\Human.deps.json
+C:\Users\Mutah\OneDrive\Desktop\C#\Human\bin\Debug\netcoreapp3.1\Human.runtimeconfig.json
+C:\Users\Mutah\OneDrive\Desktop\C#\Human\bin\Debug\netcoreapp3.1\Human.runtimeconfig.dev.json
+C:\Users\Mutah\OneDrive\Desktop\C#\Human\bin\Debug\netcoreapp3.1\Human.dll
+C:\Users\Mutah\OneDrive\Desktop\C#\Human\bin\Debug\netcoreapp3.1\Human.pdb
+C:\Users\Mutah\OneDrive\Desktop\C#\Human\obj\Debug\netcoreapp3.1\Human.csprojAssemblyReference.cache
+C:\Users\Mutah\OneDrive\Desktop\C#\Human\obj\Debug\netcoreapp3.1\Human.AssemblyInfoInputs.cache
+C:\Users\Mutah\OneDrive\Desktop\C#\Human\obj\Debug\netcoreapp3.1\Human.AssemblyInfo.cs
+C:\Users\Mutah\OneDrive\Desktop\C#\Human\obj\Debug\netcoreapp3.1\Human.csproj.CoreCompileInputs.cache
+C:\Users\Mutah\OneDrive\Desktop\C#\Human\obj\Debug\netcoreapp3.1\Human.dll
+C:\Users\Mutah\OneDrive\Desktop\C#\Human\obj\Debug\netcoreapp3.1\Human.pdb
+C:\Users\Mutah\OneDrive\Desktop\C#\Human\obj\Debug\netcoreapp3.1\Human.genruntimeconfig.cache
