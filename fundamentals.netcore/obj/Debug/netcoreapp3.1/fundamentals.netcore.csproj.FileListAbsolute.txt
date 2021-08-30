@@ -1,0 +1,13 @@
+C:\Users\Mutah\OneDrive\Desktop\C#\fundamentals.netcore\bin\Debug\netcoreapp3.1\fundamentals.netcore.exe
+C:\Users\Mutah\OneDrive\Desktop\C#\fundamentals.netcore\bin\Debug\netcoreapp3.1\fundamentals.netcore.deps.json
+C:\Users\Mutah\OneDrive\Desktop\C#\fundamentals.netcore\bin\Debug\netcoreapp3.1\fundamentals.netcore.runtimeconfig.json
+C:\Users\Mutah\OneDrive\Desktop\C#\fundamentals.netcore\bin\Debug\netcoreapp3.1\fundamentals.netcore.runtimeconfig.dev.json
+C:\Users\Mutah\OneDrive\Desktop\C#\fundamentals.netcore\bin\Debug\netcoreapp3.1\fundamentals.netcore.dll
+C:\Users\Mutah\OneDrive\Desktop\C#\fundamentals.netcore\bin\Debug\netcoreapp3.1\fundamentals.netcore.pdb
+C:\Users\Mutah\OneDrive\Desktop\C#\fundamentals.netcore\obj\Debug\netcoreapp3.1\fundamentals.netcore.csprojAssemblyReference.cache
+C:\Users\Mutah\OneDrive\Desktop\C#\fundamentals.netcore\obj\Debug\netcoreapp3.1\fundamentals.netcore.AssemblyInfoInputs.cache
+C:\Users\Mutah\OneDrive\Desktop\C#\fundamentals.netcore\obj\Debug\netcoreapp3.1\fundamentals.netcore.AssemblyInfo.cs
+C:\Users\Mutah\OneDrive\Desktop\C#\fundamentals.netcore\obj\Debug\netcoreapp3.1\fundamentals.netcore.csproj.CoreCompileInputs.cache
+C:\Users\Mutah\OneDrive\Desktop\C#\fundamentals.netcore\obj\Debug\netcoreapp3.1\fundamentals.netcore.dll
+C:\Users\Mutah\OneDrive\Desktop\C#\fundamentals.netcore\obj\Debug\netcoreapp3.1\fundamentals.netcore.pdb
+C:\Users\Mutah\OneDrive\Desktop\C#\fundamentals.netcore\obj\Debug\netcoreapp3.1\fundamentals.netcore.genruntimeconfig.cache
