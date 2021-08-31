@@ -1,0 +1,13 @@
+C:\Users\Mutah\OneDrive\Desktop\C#\Wizard, Ninja, Samurai\bin\Debug\netcoreapp3.1\Wizard, Ninja, Samurai.exe
+C:\Users\Mutah\OneDrive\Desktop\C#\Wizard, Ninja, Samurai\bin\Debug\netcoreapp3.1\Wizard, Ninja, Samurai.deps.json
+C:\Users\Mutah\OneDrive\Desktop\C#\Wizard, Ninja, Samurai\bin\Debug\netcoreapp3.1\Wizard, Ninja, Samurai.runtimeconfig.json
+C:\Users\Mutah\OneDrive\Desktop\C#\Wizard, Ninja, Samurai\bin\Debug\netcoreapp3.1\Wizard, Ninja, Samurai.runtimeconfig.dev.json
+C:\Users\Mutah\OneDrive\Desktop\C#\Wizard, Ninja, Samurai\bin\Debug\netcoreapp3.1\Wizard, Ninja, Samurai.dll
+C:\Users\Mutah\OneDrive\Desktop\C#\Wizard, Ninja, Samurai\bin\Debug\netcoreapp3.1\Wizard, Ninja, Samurai.pdb
+C:\Users\Mutah\OneDrive\Desktop\C#\Wizard, Ninja, Samurai\obj\Debug\netcoreapp3.1\Wizard, Ninja, Samurai.csprojAssemblyReference.cache
+C:\Users\Mutah\OneDrive\Desktop\C#\Wizard, Ninja, Samurai\obj\Debug\netcoreapp3.1\Wizard, Ninja, Samurai.AssemblyInfoInputs.cache
+C:\Users\Mutah\OneDrive\Desktop\C#\Wizard, Ninja, Samurai\obj\Debug\netcoreapp3.1\Wizard, Ninja, Samurai.AssemblyInfo.cs
+C:\Users\Mutah\OneDrive\Desktop\C#\Wizard, Ninja, Samurai\obj\Debug\netcoreapp3.1\Wizard, Ninja, Samurai.csproj.CoreCompileInputs.cache
+C:\Users\Mutah\OneDrive\Desktop\C#\Wizard, Ninja, Samurai\obj\Debug\netcoreapp3.1\Wizard, Ninja, Samurai.dll
+C:\Users\Mutah\OneDrive\Desktop\C#\Wizard, Ninja, Samurai\obj\Debug\netcoreapp3.1\Wizard, Ninja, Samurai.pdb
+C:\Users\Mutah\OneDrive\Desktop\C#\Wizard, Ninja, Samurai\obj\Debug\netcoreapp3.1\Wizard, Ninja, Samurai.genruntimeconfig.cache
