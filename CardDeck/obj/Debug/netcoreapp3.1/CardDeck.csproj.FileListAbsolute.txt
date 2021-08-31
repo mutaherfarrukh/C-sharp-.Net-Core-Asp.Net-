@@ -1,0 +1,13 @@
+C:\Users\Mutah\OneDrive\Desktop\C#\CardDeck\bin\Debug\netcoreapp3.1\CardDeck.exe
+C:\Users\Mutah\OneDrive\Desktop\C#\CardDeck\bin\Debug\netcoreapp3.1\CardDeck.deps.json
+C:\Users\Mutah\OneDrive\Desktop\C#\CardDeck\bin\Debug\netcoreapp3.1\CardDeck.runtimeconfig.json
+C:\Users\Mutah\OneDrive\Desktop\C#\CardDeck\bin\Debug\netcoreapp3.1\CardDeck.runtimeconfig.dev.json
+C:\Users\Mutah\OneDrive\Desktop\C#\CardDeck\bin\Debug\netcoreapp3.1\CardDeck.dll
+C:\Users\Mutah\OneDrive\Desktop\C#\CardDeck\bin\Debug\netcoreapp3.1\CardDeck.pdb
+C:\Users\Mutah\OneDrive\Desktop\C#\CardDeck\obj\Debug\netcoreapp3.1\CardDeck.csprojAssemblyReference.cache
+C:\Users\Mutah\OneDrive\Desktop\C#\CardDeck\obj\Debug\netcoreapp3.1\CardDeck.AssemblyInfoInputs.cache
+C:\Users\Mutah\OneDrive\Desktop\C#\CardDeck\obj\Debug\netcoreapp3.1\CardDeck.AssemblyInfo.cs
+C:\Users\Mutah\OneDrive\Desktop\C#\CardDeck\obj\Debug\netcoreapp3.1\CardDeck.csproj.CoreCompileInputs.cache
+C:\Users\Mutah\OneDrive\Desktop\C#\CardDeck\obj\Debug\netcoreapp3.1\CardDeck.dll
+C:\Users\Mutah\OneDrive\Desktop\C#\CardDeck\obj\Debug\netcoreapp3.1\CardDeck.pdb
+C:\Users\Mutah\OneDrive\Desktop\C#\CardDeck\obj\Debug\netcoreapp3.1\CardDeck.genruntimeconfig.cache
