@@ -1,0 +1,15 @@
+<div id = "container">
+    <img src = "@ViewBag.imgURL" alt = "hangman image">
+
+    <h1 id = "correct">@ViewBag.Correct</h1>
+
+    <h3>Incorrect: @ViewBag.Incorrect</h3>
+
+    <form asp-controller= "Home" asp-action = "GuessLetter" method = "post">
+        <div class="form-group">
+            <input type = "text" placeholder="guess a letter" name= "letter" class = "form-control input lg">
+        </div>
+        <input type = "submit" class = "btn btn-lg btn-warning">
+    </form>
+
+</div>

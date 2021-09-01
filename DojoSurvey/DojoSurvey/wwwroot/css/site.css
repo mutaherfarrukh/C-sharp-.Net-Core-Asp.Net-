@@ -1,0 +1,8 @@
+﻿*{
+  margin:0px auto;
+}
+.mainBody{
+  border: 2px solid black;
+  height: 600px;
+  width: 800px;
+}

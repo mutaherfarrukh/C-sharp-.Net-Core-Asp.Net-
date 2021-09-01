@@ -1,0 +1,18 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>date and Time</title>
+</head>
+<body>
+    <h2>The Current time and date:</h2>
+    <div class= "timebox">
+        @{
+            DateTime CurrentTime = DateTime.Now;
+            <h1>@CurrentTime.ToString("MMM dd yyyy")</h1>
+            <h1>@CurrentTime.ToString("h:m tt")</h1>
+        }
+</body>
+</html>

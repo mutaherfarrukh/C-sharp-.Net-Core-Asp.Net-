@@ -1,0 +1,27 @@
+<div class="container">
+    <h1><a href="/">Chefs</a> | Dishes</h1>
+    <h3><a href="/dishesnew">Add a Dish</a></h3>
+    <br>
+    <h3>Yum, take a look at our tasty dishes!</h3>
+    <h3>________________________________________</h3>
+
+    <table class="table table-dark table-hover">
+        <tr>
+            <th>Name</th>
+            <th>Chef</th>
+            <th>Tastiness</th>
+            <th>Calories</th>
+        </tr>
+
+        @foreach (Dish dish in ViewBag.Dishes)
+        {
+        <tr>
+            <td>@dish.Name</td>
+            <td>@dish.Creator.FirstName @dish.Creator.LastName</td>
+            <td>@dish.Tastiness</td>
+            <td>@dish.Calories</td>
+        </tr>
+        }
+
+    </table>
+</div>

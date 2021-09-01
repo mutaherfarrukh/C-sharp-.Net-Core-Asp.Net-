@@ -1,0 +1,13 @@
+﻿<h1 class="text-center">Welcome to CRUDelicious</h1>
+
+<div class="d-flex justify-content-around mt-4">
+    <h3>Check out some recent dishes!</h3>
+    <h3><a href="/newDish">Add a Dish</a></h3>
+</div>
+
+<div class="mt-5">
+    @foreach(Dish dsh in ViewBag.AllDishes)
+    {
+    <h4><a href="/dishes/@dsh.DishId">@dsh.DishName</a> by @dsh.ChefName </h4>
+    }
+</div>

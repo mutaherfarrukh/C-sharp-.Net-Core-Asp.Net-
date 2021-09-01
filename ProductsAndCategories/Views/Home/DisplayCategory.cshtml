@@ -1,0 +1,28 @@
+@model Product
+
+<h1 class="text-center mt-4">@ViewBag.SingleCategory.CategoryName</h1>
+
+
+<div>
+    <form asp-controller="Home" asp-action="SubmitOneCategory" method="post">
+        <div class="form-group">
+            <label asp-for="Name"><h3>Add Products: </h3></label>
+            <select asp-for="Name" class="form-control">
+                @foreach (Product pd in ViewBag.products)
+            {
+                <option >@pd.Name</option>
+            }
+            </select>
+            <span asp-validation-for="Name" class="alert-danger"></span>
+        </div>
+        <input type="submit" class="btn btn-lg btn-primary" value="Add">
+    </form>
+
+    @* <h3 class="mt-5">Add Categories:</h3>
+
+    @foreach (Product pot in ViewBag.dispProduct )
+    {
+        <p>@pot.Name</p>
+    } *@
+
+</div>

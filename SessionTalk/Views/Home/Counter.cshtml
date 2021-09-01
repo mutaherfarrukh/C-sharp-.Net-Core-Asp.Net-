@@ -1,0 +1,12 @@
+<partial name="NavBarPartial" view-data="ViewData"/>
+
+@{
+    if(ViewBag.Count == null){
+        <h1>0</h1>
+    }
+    else{
+        <h1>@ViewBag.Count</h1>
+    }
+}
+
+<a href="/countUp" class="btn btn-lg btn-info">Click to increase counter!</a>

@@ -1,0 +1,21 @@
+@model LoginUser
+
+<div id="container">
+    <a href="/" class= "btn btn-warning">REGISTER HERE</a>
+    <h1>Login Below</h1>
+    <form asp-controller = "Home" asp-action="CheckLogin" method = "post">
+        <div class="form-group">
+            <label asp-for="LoginEmail"></label>
+            <input asp-for ="LoginEmail" class="form-control">
+            <span asp-validation-for="LoginEmail" class = "alert-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="LoginPassword"></label>
+            <input asp-for ="LoginPassword" class="form-control">
+            <span asp-validation-for="LoginPassword" class = "alert-danger"></span>
+        </div>
+
+        <input type="submit" class="btn btn-lg btn-success">
+    </form>
+</div>

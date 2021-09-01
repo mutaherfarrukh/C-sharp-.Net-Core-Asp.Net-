@@ -1,0 +1,32 @@
+@model Sundae 
+
+<form asp-controller = "Home" asp-action= "Display" method = "POST">
+    <h1>Create a new sundae!</h1>
+
+    <div class = "form-group">
+        <label asp-for="Scoops"></label>
+        <input asp-for="Scoops" class = "form-control">
+    </div>
+
+        <div class = "form-group">
+        <label asp-for="Flavor"></label>
+        <input asp-for="Flavor" class = "form-control">
+    </div>
+
+        <div class = "form-group">
+        <label asp-for="Sauce"></label>
+        <input asp-for="Sauce" class = "form-control">
+    </div>
+
+        <div class = "form-group">
+        <label asp-for="Topping"></label>
+        <input asp-for="Topping" class = "form-control">
+    </div>
+
+        <div class = "form-group">
+        <label asp-for="WhippedAndCherry"></label>
+        <input asp-for="WhippedAndCherry" class = "form-control">
+    </div>
+
+    <input type = "submit" class = "btn btn-primary btn-lg">
+</form>

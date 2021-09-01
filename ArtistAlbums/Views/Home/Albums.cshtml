@@ -1,0 +1,34 @@
+@model Album
+<div id="container">
+    <h1>Album Stuff</h1>
+    <form asp-controller="Home" asp-action>
+        <div class="form-group">
+            <label asp-for="AlbumName"></label>
+            <input asp-for="AlbumName" class="form-control">
+        </div>
+
+        <div class="form-group">
+            <label asp-for="ReleaseYear"></label>
+            <input asp-for="ReleaseYear" class="form-control">
+        </div>
+
+        <div class="form-group">
+            <label asp-for="CoverURL"></label>
+            <input asp-for="CoverURL" class="form-control">
+        </div>
+
+        <div class="form-group">
+        <label asp-for="ArtistId"></label>
+        <select asp-for="ArtistId" class="form-control">
+            @foreach(Artist art in ViewBag.AllArtist)
+            {
+                <option value="@art.ArtistId">@art.ArtistName</option>
+            }
+        </select>
+        </div>
+
+        <input type="submit" class="btn btn-lg btn-primary">
+    </form>
+
+    
+</div>

@@ -1,0 +1,39 @@
+﻿@model Product
+
+<div class="maincontainer">
+
+        <div><h1 class="text-center mt-3 mb-5">Products | <a href="/categories">Categories</a></h1></div>
+        <div>
+            <h3>New Product</h3>
+            <form class="d-flex justify-content-around" asp-controller="Home" asp-action = "SubmitProduct" method="post">
+                <div class="form-group">
+                    <label asp-for="Name"></label>
+                    <input asp-for="Name" class="form-control">
+                    <span asp-validation-for="Name" class="alert-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="Description"></label>
+                    <input asp-for="Description" class="form-control">
+                    <span asp-validation-for="Description" class="alert-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="Price"></label>
+                    <input asp-for="Price" class="form-control">
+                    <span asp-validation-for="Price" class="alert-danger"></span>
+                </div>
+                <input type="submit" class="btn btn-primary" value="Create">
+            </form>
+        </div>
+        <div>
+            <h3>Existing Products</h3>
+            
+            
+            @foreach (Product prd in ViewBag.Index)
+            {
+                <a href="/products/@prd.ProductId">@prd.Name</a><br>
+            }
+            
+        </div>
+</div>

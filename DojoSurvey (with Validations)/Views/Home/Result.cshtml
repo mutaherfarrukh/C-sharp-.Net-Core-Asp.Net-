@@ -1,0 +1,26 @@
+@model Dojo
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="~/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One|Raleway" rel="stylesheet">
+    <title>Results</title>
+</head>
+<body>
+    <div class="mainBody">
+        <h1>Submitted Info</h1>
+
+        <div class="answers">
+            <p id="result_name">Name: @Model.Name</p>
+            <p id="DojoLocation">Dojo Location: @Model.DojoLocation</p>
+            <p id="FavoriteLanguage">Favorite Language: @Model.FavoriteLanguage</p>
+            <p id="comment">Comment: @Model.Comment</p>
+        </div>
+        <a href="/" class = "btn btn-primary">Go Back</a>
+    </div>
+</body>
+</html>

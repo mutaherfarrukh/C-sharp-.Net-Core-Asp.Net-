@@ -1,0 +1,20 @@
+﻿
+
+.mainBody{
+  height: 100%;
+  width: 100%;
+  background-color: #9932CC;
+  color: white;
+}
+
+
+.nav {
+  color: #fff;
+  background-color:#8B008B;
+  justify-content:center;
+}
+
+#naruto, #pickachu, #willy {
+    width: 150px;
+    height: 160px
+}

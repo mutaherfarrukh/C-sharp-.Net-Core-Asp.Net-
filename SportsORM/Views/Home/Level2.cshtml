@@ -1,0 +1,25 @@
+<div class="card">
+    <div class="card-header bg-dark text-light">Level 2</div>
+    <div class="card-body">
+        <p>Using the SportsORM, complete all the following queries and show their results on Level2.cshtml.</p>
+        <ol>
+            <li>...all teams in the Atlantic Soccer Conference
+                @foreach (var Atlanticteams in ViewBag.AllAltteams){
+                    <ul>@Atlanticteams.TeamName</ul>
+                    <ul>@Atlanticteams.CurrLeague.Name</ul>
+                }
+            </li>
+            <li>...all (current) players on the Boston Penguins (Hint: Boston is the Location, Penguins is the TeamName)
+                @foreach (var allPlayers in ViewBag.AllPlayersBoston){
+                    <ul>@allPlayers.CurrentPlayers.FirstName</ul>
+                }
+            </li>
+            <li>...all (current) players in the International Collegiate Baseball Conference</li>
+            <li>...all (current) players in the American Conference of Amateur Football with last name "Lopez"</li>
+            <li>...all football players</li>
+            <li>...all teams with a (current) player named "Sophia"</li>
+            <li>...all leagues with a (current) player named "Sophia"</li>
+            <li>...everyone with the last name "Flores" who DOESN'T (currently) play for the Washington Roughriders</li>
+        </ol>
+    </div>
+</div>

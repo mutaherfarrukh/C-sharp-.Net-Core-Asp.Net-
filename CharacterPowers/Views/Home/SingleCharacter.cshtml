@@ -1,0 +1,49 @@
+@model CharacterHasPower
+
+<div class="container">
+    <h1>@ViewBag.SingleCharacter.Name</h1>
+
+    <h2>Cape? @{
+        if(@ViewBag.SingleCharacter.HasCape)
+        {
+            <span>yes</span>
+        }
+        else
+        {
+            <span>no cape</span>
+        }
+    }</h2>
+    <h2>Weakness: @ViewBag.SingleCharacter.Weakness</h2>
+    <h2>Evil? @{
+        if(@ViewBag.SingleCharacter.IsEvil)
+        {
+            <span>yes, very yes</span>
+        }
+        else
+        {
+            <span>nah</span>
+        }
+    }</h2>
+    <h2>Nemesis: @ViewBag.SingleCharacter.Nemesis</h2>
+    <h2>RealName: @ViewBag.SingleCharacter.RealName</h2>
+    <h2>CatchPhrase: @ViewBag.SingleCharacter.CatchPhrase</h2>
+    <h2>Powers:</h2>
+    <ul>
+        @foreach(CharacterHasPower chp in ViewBag.SingleCharacter.CharacterPowers)
+        {
+            <li>@chp.Power.PowerName</li>
+        }
+    </ul>
+
+    <form asp-controller="Home" asp-action="AddPowerToCharacter" method="post">
+        <input type="hidden" asp-for="CharacterId" value="@ViewBag.SingleCharacter.CharacterId">
+        <select asp-for="PowerId">
+            @foreach(Power pow in ViewBag.AllPowers)
+            {
+                <option value="@pow.PowerId">@pow.PowerName</option>
+            }
+        </select>
+
+        <input type="submit" class="btn btn-success">
+    </form>
+</div>

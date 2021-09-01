@@ -1,0 +1,52 @@
+@model List<WeddingUsers>
+
+
+<div class="maincontainer">
+<h1 class="text-center mt-5">Welcome to the Wedding Planner</h1>
+<h4 class="text-right mt-3"><a href="/logout" class="btn btn-lg btn-warning">Log Out</a></h4>
+<form asp-controller="Home" asp-action = "SubmitShow" method="post">
+    <table class="table table-dark table-hover">
+        <tr>
+            <th>Wedding</th>
+            <th>Date</th>
+            <th>Guest</th>
+            <th>Action</th>
+        </tr>
+        <tbody>
+            @foreach (WeddingUsers WdUr in ViewBag.WedComing)
+            {
+            <tr>
+                <td><a href="/submit/@WdUr.WeddingUserId">@WdUr.WedCoupleName1 & @WdUr.WedCoupleName2</a></td>
+                
+                    @* @if (DateTime.Now.DayOfYear < @WdUr.Date.DayOfYear)
+                    {
+                        <td>@((DateTime.Now.Year - @WdUr.Date.Year) - 1)</td>
+                    }
+                    else
+                    {
+                        <td>@((DateTime.Now.Year - @WdUr.Date.Year) )</td>
+                    } *@
+                <td>@WdUr.Date</td>
+                <td></td>
+
+                @if(WdUr.UserId == ViewBag.CurrentUser.UserId)
+                {
+                    <td><a class="btn btn-lg btn-danger" href="/wedPlan/delete/@WdUr.WeddingUserId">Delete</a></td>
+                }
+
+                else if(WdUr.AllUsers.Any(u => u.UserId == ViewBag.CurrentUser.UserId))
+                {
+                    <td><a href ="/remove/rsvp/@WdUr.WeddingUserId" class="btn btn-lg btn-primary">Un-RSVP</a></td>
+                }
+                else
+                {
+                    <td><a href ="/add/rsvp/@WdUr.WeddingUserId" class="btn btn-lg btn-primary">RSVP</a></td>
+                }
+            }
+            </tr>
+            }
+        </tbody>
+    </table>
+    <a href="/createnew" class="btn btn-lg btn-primary">New Wedding</a>
+</form>
+</div>

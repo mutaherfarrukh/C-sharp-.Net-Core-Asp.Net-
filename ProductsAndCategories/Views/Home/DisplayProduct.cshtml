@@ -1,0 +1,25 @@
+@model Category
+
+<h1 class="text-center mt-4">@ViewBag.SingleProduct.Name</h1>
+
+<div>
+    <form asp-controller="Home" asp-action="SubmitProduct" method="post">
+        <div class="form-group">
+            <label asp-for="CategoryName"></label>
+            <select asp-for="CategoryName" class="form-control">
+            @foreach (Category cat in ViewBag.Categories)
+            {
+                <option >@cat.CategoryName</option>
+            }
+            </select>
+            <span asp-validation-for="CategoryName" class="alert-danger"></span>
+        </div>
+        <input type="submit" class="btn btn-lg btn-primary" value="Add">
+    </form>
+@* 
+    <h3 class="mt-5">Add Product:</h3>
+        @foreach (var cat in ViewBag.NotCategories)
+        {
+            <a href="/category/">@cat.Name</a><br>
+        }
+</div> *@

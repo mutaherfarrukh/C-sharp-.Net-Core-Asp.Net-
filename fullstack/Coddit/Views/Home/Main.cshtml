@@ -1,0 +1,23 @@
+<div id="headerDiv">
+    <h1><a href="/posts/new">make post</a></h1>
+    <h1 id="userName"><a href="#">@ViewBag.LoggedUser.UserName</a></h1>
+</div>
+
+<div>
+    @foreach (Post post  in ViewBag.AllPosts)
+    {
+        <div class = "postBox">
+            <div class="postLikes">
+                <span>👍</span>
+                <span>14</span>
+            </div>
+            <div class = "postBoxInfo">
+                <h3><a href = "@post.Link">@post.Title</a></h3>
+                <p>posted by @post.Creator.UserName</p>
+                <p>on @post.CreatedAt</p>
+                <p><a href="#">16 comments</a> Topic: @post.Topic</p>
+            </div>
+        </div>
+
+    }
+</div>

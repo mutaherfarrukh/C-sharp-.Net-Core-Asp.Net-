@@ -1,0 +1,51 @@
+@model Character
+
+<div class="container">
+    <a href="/" class="btn btn-lg btn-primary">Go back</a>
+
+    <form asp-controller="Home" asp-action="SubmitCharacter" method="post">
+        <div class="form-group">
+            <label asp-for="Name"></label>
+            <input asp-for="Name" class="form-control">
+            <span asp-validation-for="Name" class="alert-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="IsEvil"></label>
+            <input asp-for="IsEvil" class="form-control">
+            <span asp-validation-for="IsEvil" class="alert-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="HasCape"></label>
+            <input asp-for="HasCape" class="form-control">
+            <span asp-validation-for="HasCape" class="alert-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Nemesis"></label>
+            <input asp-for="Nemesis" class="form-control">
+            <span asp-validation-for="Nemesis" class="alert-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="RealName"></label>
+            <input asp-for="RealName" class="form-control">
+            <span asp-validation-for="RealName" class="alert-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Weakness"></label>
+            <input asp-for="Weakness" class="form-control">
+            <span asp-validation-for="Weakness" class="alert-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="CatchPhrase"></label>
+            <input asp-for="CatchPhrase" class="form-control">
+            <span asp-validation-for="CatchPhrase" class="alert-danger"></span>
+        </div>
+
+        <input type="submit" class="btn btn-lg btn-success">
+    </form>
+</div>

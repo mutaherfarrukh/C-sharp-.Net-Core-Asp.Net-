@@ -1,0 +1,41 @@
+﻿<div class="container">
+    <div class="d-flex justify-content-evenly w-75">
+        <a href="/characters/form" class="btn btn-lg btn-primary">Add a character</a>
+        
+        <a href="/powers" class="btn btn-lg btn-info">Powers page</a>
+    </div>
+
+    <table class="table table-dark table-hover">
+        <tr>
+            <th>Character ID</th>
+            <th>Name</th>
+            <th>Weakness</th>
+            <th>Nemesis</th>
+            <th>Real Name</th>
+        </tr>
+        @foreach(Character chara in ViewBag.AllCharacters)
+        {
+            if(chara.IsEvil)
+            {
+                <tr class="table-danger">
+                    <td>@chara.CharacterId</td>
+                    <td><a href="/characters/@chara.CharacterId">@chara.Name</a></td>
+                    <td>@chara.Weakness</td>
+                    <td>@chara.Nemesis</td>
+                    <td>@chara.RealName</td>
+                </tr>
+            }
+            else
+            {
+                <tr>
+                    <td>@chara.CharacterId</td>
+                    <td><a href="/characters/@chara.CharacterId">@chara.Name</a></td>
+                    <td>@chara.Weakness</td>
+                    <td>@chara.Nemesis</td>
+                    <td>@chara.RealName</td>
+                </tr>
+            }
+            
+        }
+    </table>
+</div>

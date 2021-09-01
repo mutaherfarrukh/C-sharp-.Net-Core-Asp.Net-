@@ -1,0 +1,35 @@
+﻿<div class="container">
+    <h1>Chefs | <a href="/dishes">Dishes</a></h1>
+    <h4><a href="/new">Add a Chef</a></h4>
+    <br>
+    <h3>Check out our roster of Chefs!</h3>
+    <h3>________________________________</h3>
+
+
+    <table class="table table-dark table-hover">
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th># of Dishes</th>
+        </tr>
+
+        @foreach (Chef chef in ViewBag.AllChef)
+        {
+            <tr>
+                <td>@chef.FirstName @chef.LastName</td>
+                @if (DateTime.Now.DayOfYear < @chef.DateOfBirth.DayOfYear)
+                {
+                    <td>@((DateTime.Now.Year - @chef.DateOfBirth.Year) - 1)</td>
+                }
+                else
+                {
+                    <td>@((DateTime.Now.Year - @chef.DateOfBirth.Year) )</td>
+
+                }
+                @* <td>@chef.DateOfBirth</td> *@
+                <td>@chef.CreatedDishes.Count</td>
+            </tr>
+        }
+
+    </table>
+</div>

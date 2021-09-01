@@ -1,0 +1,48 @@
+﻿@model RegisterUser
+
+
+<div id="container">
+    <a href="/login" class= "btn btn-warning">ALREADY REGISTERED!! CLICK ME TO LOGIN</a>
+    <h1>Create a User!</h1>
+
+    <form asp-controller = "Home" asp-action="Register" method = "post">
+        <div class="form-group">
+            <label asp-for="FirstName"></label>
+            <input asp-for ="FirstName" class="form-control">
+            <span asp-validation-for="FirstName" class = "alert-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="LastName"></label>
+            <input asp-for ="LastName" class="form-control">
+            <span asp-validation-for="LastName" class = "alert-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="SpiritAnimal"></label>
+            <input asp-for ="SpiritAnimal" class="form-control">
+            <span asp-validation-for="SpiritAnimal" class = "alert-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Email"></label>
+            <input asp-for ="Email" class="form-control">
+            <span asp-validation-for="Email" class = "alert-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Password"></label>
+            <input asp-for ="Password" class="form-control">
+            <span asp-validation-for="Password" class = "alert-danger"></span>
+        </div>
+
+
+        <div class="form-group">
+            <label asp-for="Confirm"></label>
+            <input asp-for ="Confirm" class="form-control">
+            <span asp-validation-for="Confirm" class = "alert-danger"></span>
+        </div>
+
+        <input type="submit" class= "btn btn-lf btn-success">
+    </form>
+</div>

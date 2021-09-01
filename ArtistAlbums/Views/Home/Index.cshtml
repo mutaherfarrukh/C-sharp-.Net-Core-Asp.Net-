@@ -1,0 +1,33 @@
+﻿@model Artist
+<div id="container">
+    <h1>Add A new Artist</h1>
+    <form>
+        <div class = "form-group">
+            <label asp-for= "ArtistName">
+            <label asp-for= "ArtistName" class = "form-control">
+        </div>
+
+        <input type="submit" class = "btn btn-lg btn-primary">
+    </form>
+
+    <table>
+        <tr>
+            <th>Artist Id</th>
+            <th>Artist Name</th>
+            <th>Albums</th>
+        </tr>
+        @foreach(Artist art in ViewBag.AllArtist)
+        {
+            <tr>
+                <td>@art.ArtistId</td>
+                <td>@art.ArtistName</td>
+                <td>
+                    @foreach (Album alb in art.CreatedAlbums)
+                {
+                    <span>@alb.AlbumName,</span>
+                }
+                </td>
+            </tr>
+        }
+    </table>
+</div>
